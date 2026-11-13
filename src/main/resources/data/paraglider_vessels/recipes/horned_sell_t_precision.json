@@ -1,0 +1,26 @@
+{
+  "type": "paraglider_vessels:vessel_bargain",
+  "conditions": [
+    {
+      "type": "paraglider_vessels:mods_loaded",
+      "mods": [
+        "tacz",
+        "taa"
+      ]
+    }
+  ],
+  "bargainType": "paraglider:horned_statue",
+  "demands": {
+    "vessel": "tacz_precision",
+    "count": 1
+  },
+  "offers": {
+    "essences": 1,
+    "items": [
+      {
+        "item": "minecraft:emerald",
+        "count": 5
+      }
+    ]
+  }
+}

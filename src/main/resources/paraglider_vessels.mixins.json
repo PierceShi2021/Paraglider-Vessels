@@ -1,0 +1,15 @@
+{
+  "required": true,
+  "minVersion": "0.8",
+  "package": "com.zhao.paraglider_vessels.mixin",
+  "compatibilityLevel": "JAVA_17",
+  "refmap": "paraglider_vessels.refmap.json",
+  "mixins": [
+    "AntiVesselMixin",
+    "OriginalVesselUseMixin"
+  ],
+  "client": [],
+  "injectors": {
+    "defaultRequire": 1
+  }
+}

@@ -1,0 +1,31 @@
+modLoader = "javafml"
+loaderVersion = "${loader_version_range}"
+license = "${mod_license}"
+
+[[mods]]
+modId = "${mod_id}"
+version = "${mod_version}"
+displayName = "容器拓展"
+authors = "${mod_authors}"
+description = '''Paragliders 容器拓展：新增 15 种容器（含 Apotheosis / TaCZ 联动容器），接入女神雕像与恶魔雕像交易，并扩展排斥容器。'''
+
+[[dependencies."${mod_id}"]]
+modId = "forge"
+mandatory = true
+versionRange = "${forge_version_range}"
+ordering = "NONE"
+side = "BOTH"
+
+[[dependencies."${mod_id}"]]
+modId = "minecraft"
+mandatory = true
+versionRange = "${minecraft_version_range}"
+ordering = "NONE"
+side = "BOTH"
+
+[[dependencies."${mod_id}"]]
+modId = "paraglider"
+mandatory = true
+versionRange = "[20.1.3,20.2)"
+ordering = "AFTER"
+side = "BOTH"

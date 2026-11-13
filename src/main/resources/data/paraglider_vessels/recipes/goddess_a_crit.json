@@ -1,0 +1,27 @@
+{
+  "type": "paraglider_vessels:vessel_bargain",
+  "conditions": [
+    {
+      "type": "paraglider_vessels:mods_loaded",
+      "mods": [
+        "apotheosis",
+        "attributeslib"
+      ]
+    }
+  ],
+  "bargainType": "paraglider:goddess_statue",
+  "demands": {
+    "items": [
+      {
+        "ingredient": {
+          "item": "paraglider:spirit_orb"
+        },
+        "quantity": 4
+      }
+    ]
+  },
+  "offers": {
+    "vessel": "apoth_crit",
+    "count": 1
+  }
+}

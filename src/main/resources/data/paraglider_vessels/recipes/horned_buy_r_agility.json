@@ -1,0 +1,19 @@
+{
+  "type": "paraglider_vessels:vessel_bargain",
+  "bargainType": "paraglider:horned_statue",
+  "demands": {
+    "essences": 1,
+    "items": [
+      {
+        "ingredient": {
+          "tag": "forge:gems/emerald"
+        },
+        "quantity": 6
+      }
+    ]
+  },
+  "offers": {
+    "vessel": "agility",
+    "count": 1
+  }
+}

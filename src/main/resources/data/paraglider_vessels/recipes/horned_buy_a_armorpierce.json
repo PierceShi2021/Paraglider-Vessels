@@ -1,0 +1,28 @@
+{
+  "type": "paraglider_vessels:vessel_bargain",
+  "conditions": [
+    {
+      "type": "paraglider_vessels:mods_loaded",
+      "mods": [
+        "apotheosis",
+        "attributeslib"
+      ]
+    }
+  ],
+  "bargainType": "paraglider:horned_statue",
+  "demands": {
+    "essences": 1,
+    "items": [
+      {
+        "ingredient": {
+          "tag": "forge:gems/emerald"
+        },
+        "quantity": 6
+      }
+    ]
+  },
+  "offers": {
+    "vessel": "apoth_armorpierce",
+    "count": 1
+  }
+}
